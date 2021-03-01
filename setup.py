@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="kings_selenium",
-    version="1.0.2",
+    version="1.0.3",
     author="kings",
     author_email="963987632@qq.com",
     url="https://github.com/kings1990/kings_selenium",

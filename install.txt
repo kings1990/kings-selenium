@@ -1,0 +1,2 @@
+python setup.py sdist
+twine upload dist/kings_selenium-1.0.3.tar.gz
