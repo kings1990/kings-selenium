@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="kings_selenium",
-    version="1.0.0",
+    version="1.0.1",
     author="kings",
     packages=setuptools.find_packages()
 )
