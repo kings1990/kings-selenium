@@ -1,0 +1,26 @@
+{
+  "POLL_FREQUENCY": 0.5,
+  "TIMEOUT": 30,
+  "DRIVER_LOCATION": "/Users/wilson/Downloads/chromedriver",
+  "CHROME_DEBUGGER_ADDRESS": "127.0.0.1:9222",
+  "COMMAND_EXECUTOR": "http://127.0.0.1:4723/wd/hub",
+  "DESIRED_CAPABILITIES": {
+    "platformName": "iOS",
+    "platformVersion": "14.0",
+    "deviceName": "Kings",
+    "udid": "xxx",
+    "appPushTimeout": 300000,
+    "noReset": "True",
+    "webkitgtk:browserOptions": {
+      "excludeSwitches": [
+        "enable-automation"
+      ],
+      "args": [
+        "--incognito",
+        "--headless",
+        "--disable-infobars",
+        "--disable-javascript"
+      ]
+    }
+  }
+}
