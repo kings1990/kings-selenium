@@ -1,18 +1,11 @@
 import setuptools
 
-setuptools.setup(
-    name="kings_selenium",
-    version="1.0.1",
-    author="kings",
-    packages=setuptools.find_packages()
-)
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="kings_selenium",
-    version="1.0.0",
+    version="1.0.2",
     author="kings",
     author_email="963987632@qq.com",
     url="https://github.com/kings1990/kings_selenium",

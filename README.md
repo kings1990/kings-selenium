@@ -2,7 +2,7 @@
 基于chrome的使用selenium将web端和appium常用方法封装集成成一个简单的类,其中节点查询和点击都是基于异步的,不需要再在程序中使用time.sleep(x)
 
 # 安装
-pip install kings_selenium
+> pip install -i https://pypi.org/simple/ kings_selenium
 
 # 配置 config.json
 配置文件,路径为当前项目的根目录创建一个config文件夹,里面再创建config.json
